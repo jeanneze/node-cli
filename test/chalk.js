@@ -1,0 +1,5 @@
+const chalk = require('chalk')
+console.log(chalk.blue('内容'))
+console.log(chalk.red('红色'))
+console.log(chalk.rgb(255, 60, 90)('rgb色值'))
+console.log(chalk.bold('加粗字体'))
